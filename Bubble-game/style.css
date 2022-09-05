@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+padding-top: 100px;
+}
+.balonplace{
+    position: absolute;
+    right: 0;
+    width:1000px;
+height: 500px;
+background-color: bisque;}
+
+button{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+}
+.balon{
+    width:50px;
+    height: 50px;
+    background-color: rgb(13, 89, 80);
+    border-radius: 50%;
+}
