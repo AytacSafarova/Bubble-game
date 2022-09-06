@@ -1,0 +1,102 @@
+{
+    "sourceFile": "Bubble-game/main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 21,
+            "patches": [
+                {
+                    "date": 1662427144975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662427151731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n checkboxs.forEach(item=>{\r\n+    \r\n     // console.log(item.nextElementSibling)\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n             let div= document.createElement(\"div\")\r\n"
+                },
+                {
+                    "date": 1662427157218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,10 +18,11 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n+    let person = prompt(\"Please enter your name\", \"Harry Potter\");\r\n+\r\n checkboxs.forEach(item=>{\r\n-    \r\n     // console.log(item.nextElementSibling)\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n             let div= document.createElement(\"div\")\r\n"
+                },
+                {
+                    "date": 1662427208200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    let person = prompt(\"Please enter your name\", \"Harry Potter\");\r\n+    let person = prompt(\"Please enter your name\");\r\n \r\n checkboxs.forEach(item=>{\r\n     // console.log(item.nextElementSibling)\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n"
+                },
+                {
+                    "date": 1662427218588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    let person = prompt(\"Please enter your name\");\r\n+    let user = prompt(\"Please enter your name\");\r\n \r\n checkboxs.forEach(item=>{\r\n     // console.log(item.nextElementSibling)\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n"
+                },
+                {
+                    "date": 1662427225559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,15 +12,15 @@\n \r\n // take count from user\r\n let count=0\r\n let addtime\r\n+let user\r\n \r\n \r\n-\r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    let user = prompt(\"Please enter your name\");\r\n+   = prompt(\"Please enter your name\");\r\n \r\n checkboxs.forEach(item=>{\r\n     // console.log(item.nextElementSibling)\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n"
+                },
+                {
+                    "date": 1662427233711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,12 +18,11 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-   = prompt(\"Please enter your name\");\r\n+  user = prompt(\"Please enter your name\");\r\n \r\n checkboxs.forEach(item=>{\r\n-    // console.log(item.nextElementSibling)\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n             let div= document.createElement(\"div\")\r\n                div.classList.add(\"balon\")\r\n"
+                },
+                {
+                    "date": 1662428126808,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,8 @@\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n   user = prompt(\"Please enter your name\");\r\n-\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n             let div= document.createElement(\"div\")\r\n"
+                },
+                {
+                    "date": 1662428135994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -34,11 +34,9 @@\n         time=2000;\r\n         addtime= setInterval(()=>{\r\n             let div= document.createElement(\"div\")\r\n                div.classList.add(\"balon\")\r\n-               balonplace.appendChild(div) \r\n-             \r\n-           \r\n+               balonplace.appendChild(div)\r\n            }, time)\r\n     }\r\n     else if (item.checked&& item.nextElementSibling.textContent==\"Hard\"){\r\n         time=1000\r\n"
+                },
+                {
+                    "date": 1662428160562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n+    startbtn\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428166932,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    startbtn\r\n+    startbtn.style\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428174487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    startbtn.style\r\n+    startbtn.style.display=none\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428550642,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    startbtn.style.display=none\r\n+    startbtn.style.dis\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428557584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    startbtn.style.dis\r\n+    \r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428568584,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,10 +4,9 @@\n let stopbtn=document.querySelector(\".stop\")\r\n let input= document.querySelector(\"input\")\r\n let balonplace=document.querySelector(\".balonplace\")\r\n let checkboxs=document.querySelectorAll(\".checkbox\")\r\n-let check= document.querySelector(\".check\")\r\n-  let time=3000;\r\n+let main =do  let time=3000;\r\n \r\n \r\n \r\n // take count from user\r\n"
+                },
+                {
+                    "date": 1662428574294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n let stopbtn=document.querySelector(\".stop\")\r\n let input= document.querySelector(\"input\")\r\n let balonplace=document.querySelector(\".balonplace\")\r\n let checkboxs=document.querySelectorAll(\".checkbox\")\r\n-let main =do  let time=3000;\r\n+let main =document.quer  let time=3000;\r\n \r\n \r\n \r\n // take count from user\r\n"
+                },
+                {
+                    "date": 1662428580384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,10 @@\n let stopbtn=document.querySelector(\".stop\")\r\n let input= document.querySelector(\"input\")\r\n let balonplace=document.querySelector(\".balonplace\")\r\n let checkboxs=document.querySelectorAll(\".checkbox\")\r\n-let main =document.quer  let time=3000;\r\n+let main =document.querySelector('main') \r\n+ let time=3000;\r\n \r\n \r\n \r\n // take count from user\r\n"
+                },
+                {
+                    "date": 1662428587004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    \r\n+    main.sty\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428592450,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \r\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n-    main.sty\r\n+    main.style.zIndex=4\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428605754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n     main.style.zIndex=4\r\n+    \r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662428614982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,9 +19,9 @@\n startbtn.addEventListener('click', addbubble)\r\n \r\n function addbubble(){\r\n     main.style.zIndex=4\r\n-    startbtn.style\r\n+    startbtn.style.\r\n   user = prompt(\"Please enter your name\");\r\n checkboxs.forEach(item=>{\r\n     if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n      addtime= setInterval(()=>{\r\n"
+                },
+                {
+                    "date": 1662429406556,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,4 +64,5 @@\n         startbtn.disabled=false\r\n         \r\n     }\r\n }\r\n+bs\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1662427144975,
+            "name": "Commit-0",
+            "content": "\r\nlet startbtn=document.querySelector(\".start\")\r\nlet savebtn=document.querySelector(\".save\")\r\nlet stopbtn=document.querySelector(\".stop\")\r\nlet input= document.querySelector(\"input\")\r\nlet balonplace=document.querySelector(\".balonplace\")\r\nlet checkboxs=document.querySelectorAll(\".checkbox\")\r\nlet check= document.querySelector(\".check\")\r\n  let time=3000;\r\n\r\n\r\n\r\n// take count from user\r\nlet count=0\r\nlet addtime\r\n\r\n\r\n\r\nstartbtn.addEventListener('click', addbubble)\r\n\r\nfunction addbubble(){\r\ncheckboxs.forEach(item=>{\r\n    // console.log(item.nextElementSibling)\r\n    if(item.checked && item.nextElementSibling.textContent==\"Easy\"){\r\n     addtime= setInterval(()=>{\r\n            let div= document.createElement(\"div\")\r\n               div.classList.add(\"balon\")\r\n               balonplace.appendChild(div) \r\n         \r\n           }, time)\r\n        console.log(item.nextElementSibling.textContent)\r\n    }\r\n    else if (item.checked&& item.nextElementSibling.textContent==\"Medium\"){\r\n        time=2000;\r\n        addtime= setInterval(()=>{\r\n            let div= document.createElement(\"div\")\r\n               div.classList.add(\"balon\")\r\n               balonplace.appendChild(div) \r\n             \r\n           \r\n           }, time)\r\n    }\r\n    else if (item.checked&& item.nextElementSibling.textContent==\"Hard\"){\r\n        time=1000\r\n\r\n        addtime=   setInterval(()=>{\r\n            let div= document.createElement(\"div\")\r\n               div.classList.add(\"balon\")\r\n               balonplace.appendChild(div) \r\n           }, time)    }\r\n})\r\n\r\n}\r\n  \r\nstopbtn.addEventListener('click', stop)\r\nfunction stop(){\r\nclearInterval(addtime)\r\nconsole.log('stop')\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nsavebtn.addEventListener('click', takedata)\r\nfunction takedata(){\r\n    if(input.value){\r\n        startbtn.disabled=false\r\n        \r\n    }\r\n}\r\n\r\n"
+        }
+    ]
+}

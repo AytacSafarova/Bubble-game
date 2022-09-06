@@ -1,0 +1,90 @@
+{
+    "sourceFile": "Bubble-game/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1662401352144,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662401360137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     <div class=\"container\">\r\n         <input type=\"text\">\r\n         <button class=\"save\">Save</button>\r\n \r\n- <button class=\"start\" disabled>Lets go</button>\r\n+ <button class=\"start\" >Lets go</button>\r\n  <button class=\"stop\">Stop</button>\r\n \r\n \r\n         <div class=\"balonplace\"></div>\r\n"
+                },
+                {
+                    "date": 1662401369486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n     <div class=\"container\">\r\n         <input type=\"text\">\r\n         <button class=\"save\">Save</button>\r\n \r\n- <button class=\"start\" >Lets go</button>\r\n  <button class=\"stop\">Stop</button>\r\n \r\n \r\n         <div class=\"balonplace\"></div>\r\n"
+                },
+                {
+                    "date": 1662427054819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n     <link rel=\"stylesheet\" href=\"./style.css\">\r\n     <title>Document</title>\r\n </head>\r\n <body>\r\n+    <button class=\"start\">Lets go</button>\r\n+\r\n     <div class=\"container\">\r\n         <input type=\"text\">\r\n         <button class=\"save\">Save</button>\r\n \r\n@@ -16,9 +18,9 @@\n \r\n \r\n         <div class=\"balonplace\"></div>\r\n <div class=\"speed\">\r\n-<input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Easy</span>\r\n+<input type=\"radio\" name=\"input class=\"checkbox\"> <span>Easy</span>\r\n <input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Medium</span>\r\n <input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Hard</span>\r\n </div>\r\n \r\n"
+                },
+                {
+                    "date": 1662427066841,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,11 +18,11 @@\n \r\n \r\n         <div class=\"balonplace\"></div>\r\n <div class=\"speed\">\r\n-<input type=\"radio\" name=\"input class=\"checkbox\"> <span>Easy</span>\r\n-<input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Medium</span>\r\n-<input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Hard</span>\r\n+<input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n+<input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Medium</span>\r\n+<input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Hard</span>\r\n </div>\r\n \r\n \r\n         <div class=\"score\"></div>\r\n"
+                },
+                {
+                    "date": 1662427254187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n <body>\r\n     <button class=\"start\">Lets go</button>\r\n \r\n     <div class=\"container\">\r\n-        <input type=\"text\">\r\n         <button class=\"save\">Save</button>\r\n \r\n  <button class=\"stop\">Stop</button>\r\n \r\n"
+                },
+                {
+                    "date": 1662427290542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n </head>\r\n <body>\r\n     <button class=\"start\">Lets go</button>\r\n \r\n-    <div class=\"container\">\r\n         <button class=\"save\">Save</button>\r\n \r\n  <button class=\"stop\">Stop</button>\r\n \r\n"
+                },
+                {
+                    "date": 1662428187978,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,10 @@\n     <link rel=\"stylesheet\" href=\"./style.css\">\r\n     <title>Document</title>\r\n </head>\r\n <body>\r\n+    <div class=\"container\">\r\n+<main></main>\r\n     <button class=\"start\">Lets go</button>\r\n \r\n         <button class=\"save\">Save</button>\r\n \r\n"
+                },
+                {
+                    "date": 1662428198116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,14 +8,13 @@\n     <title>Document</title>\r\n </head>\r\n <body>\r\n     <div class=\"container\">\r\n-<main></main>\r\n+\r\n     <button class=\"start\">Lets go</button>\r\n \r\n         <button class=\"save\">Save</button>\r\n \r\n- <button class=\"stop\">Stop</button>\r\n \r\n \r\n         <div class=\"balonplace\"></div>\r\n <div class=\"speed\">\r\n"
+                },
+                {
+                    "date": 1662428204248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,10 @@\n <body>\r\n     <div class=\"container\">\r\n \r\n     <button class=\"start\">Lets go</button>\r\n-\r\n+    \r\n+    <button class=\"stop\">Stop</button>\r\n         <button class=\"save\">Save</button>\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1662428209716,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,11 @@\n <body>\r\n     <div class=\"container\">\r\n \r\n     <button class=\"start\">Lets go</button>\r\n-    \r\n+\r\n     <button class=\"stop\">Stop</button>\r\n-        <button class=\"save\">Save</button>\r\n+    <button class=\"save\">Save</button>\r\n \r\n \r\n \r\n         <div class=\"balonplace\"></div>\r\n"
+                },
+                {
+                    "date": 1662428219602,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,19 +13,12 @@\n     <button class=\"start\">Lets go</button>\r\n \r\n     <button class=\"stop\">Stop</button>\r\n     <button class=\"save\">Save</button>\r\n+        <div class=\"balonplace\"></div>\r\n \r\n \r\n \r\n-        <div class=\"balonplace\"></div>\r\n-<div class=\"speed\">\r\n-<input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n-<input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Medium</span>\r\n-<input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Hard</span>\r\n-</div>\r\n-\r\n-\r\n         <div class=\"score\"></div>\r\n \r\n     </div>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1662428230223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,16 @@\n <body>\r\n     <div class=\"container\">\r\n \r\n     <button class=\"start\">Lets go</button>\r\n-\r\n+<main></main>\r\n     <button class=\"stop\">Stop</button>\r\n     <button class=\"save\">Save</button>\r\n+    <div class=\"speed\">\r\n+        <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n+        <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Medium</span>\r\n+        <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Hard</span>\r\n+        </div>\r\n         <div class=\"balonplace\"></div>\r\n \r\n \r\n \r\n"
+                },
+                {
+                    "date": 1662428240870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n <body>\r\n     <div class=\"container\">\r\n \r\n     <button class=\"start\">Lets go</button>\r\n-<main></main>\r\n+<main>\r\n     <button class=\"stop\">Stop</button>\r\n     <button class=\"save\">Save</button>\r\n     <div class=\"speed\">\r\n         <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n@@ -23,9 +23,9 @@\n \r\n \r\n \r\n         <div class=\"score\"></div>\r\n-\r\n+<main></main>\r\n     </div>\r\n </body>\r\n <script src=\"./main.js\"></script>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662428255150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \r\n \r\n \r\n         <div class=\"score\"></div>\r\n-<main></main>\r\n+</main>\r\n     </div>\r\n </body>\r\n <script src=\"./main.js\"></script>\r\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1662428261275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,10 +20,8 @@\n         <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Hard</span>\r\n         </div>\r\n         <div class=\"balonplace\"></div>\r\n \r\n-\r\n-\r\n         <div class=\"score\"></div>\r\n </main>\r\n     </div>\r\n </body>\r\n"
+                },
+                {
+                    "date": 1662429026959,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,8 @@\n <body>\r\n     <div class=\"container\">\r\n \r\n     <button class=\"start\">Lets go</button>\r\n-<main>\r\n     <button class=\"stop\">Stop</button>\r\n     <button class=\"save\">Save</button>\r\n     <div class=\"speed\">\r\n         <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n"
+                },
+                {
+                    "date": 1662429060659,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n </head>\r\n <body>\r\n     <div class=\"container\">\r\n \r\n-    <button class=\"start\">Lets go</button>\r\n+<main>\r\n     <button class=\"stop\">Stop</button>\r\n     <button class=\"save\">Save</button>\r\n     <div class=\"speed\">\r\n         <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n"
+                },
+                {
+                    "date": 1662429067523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,10 @@\n <body>\r\n     <div class=\"container\">\r\n \r\n <main>\r\n+    <button class=\"start\">Lets go</button>\r\n+\r\n     <button class=\"stop\">Stop</button>\r\n     <button class=\"save\">Save</button>\r\n     <div class=\"speed\">\r\n         <input type=\"radio\" name=\"input\" class=\"checkbox\"> <span>Easy</span>\r\n"
+                }
+            ],
+            "date": 1662401352144,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=div.container, initial-scale=1.0\">\r\n    <link rel=\"stylesheet\" href=\"./style.css\">\r\n    <title>Document</title>\r\n</head>\r\n<body>\r\n    <div class=\"container\">\r\n        <input type=\"text\">\r\n        <button class=\"save\">Save</button>\r\n\r\n <button class=\"start\" disabled>Lets go</button>\r\n <button class=\"stop\">Stop</button>\r\n\r\n\r\n        <div class=\"balonplace\"></div>\r\n<div class=\"speed\">\r\n<input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Easy</span>\r\n<input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Medium</span>\r\n<input type=\"radio\" name=\"\" class=\"checkbox\"> <span>Hard</span>\r\n</div>\r\n\r\n\r\n        <div class=\"score\"></div>\r\n\r\n    </div>\r\n</body>\r\n<script src=\"./main.js\"></script>\r\n</html>"
+        }
+    ]
+}

@@ -5,31 +5,38 @@ let stopbtn=document.querySelector(".stop")
 let input= document.querySelector("input")
 let balonplace=document.querySelector(".balonplace")
 let checkboxs=document.querySelectorAll(".checkbox")
-let check= document.querySelector(".check")
-  let time=3000;
-check.addEventListener('click',()=>{
-    console.log('salaafdfvhgvoiu')
-    localStorage.setItem("userName", input.va);
+let main =document.querySelector('main') 
+ let time=3000;
 
-})
 
 
 // take count from user
 let count=0
 let addtime
-
-
+let user
+let balons
 
 startbtn.addEventListener('click', addbubble)
 
 function addbubble(){
+    // main.style.zIndex=4
+    // startbtn.style.display='none'
+  user = prompt("Please enter your name");
+  let p=document.createElement('p')
+  let text= ` Hi ,${user} `
+  p.innerHTML=text
+  main.append(p)
+  
+  
 checkboxs.forEach(item=>{
-    // console.log(item.nextElementSibling)
     if(item.checked && item.nextElementSibling.textContent=="Easy"){
      addtime= setInterval(()=>{
             let div= document.createElement("div")
                div.classList.add("balon")
                balonplace.appendChild(div) 
+               balons=document.querySelector(".balon")
+               div.addEventListener('click',()=>{
+                div.style.display='none'               })
          
            }, time)
         console.log(item.nextElementSibling.textContent)
@@ -39,9 +46,9 @@ checkboxs.forEach(item=>{
         addtime= setInterval(()=>{
             let div= document.createElement("div")
                div.classList.add("balon")
-               balonplace.appendChild(div) 
-             
-           
+               balonplace.appendChild(div)
+               div.addEventListener('click',()=>{
+div.style.display='none'               })
            }, time)
     }
     else if (item.checked&& item.nextElementSibling.textContent=="Hard"){
@@ -51,6 +58,8 @@ checkboxs.forEach(item=>{
             let div= document.createElement("div")
                div.classList.add("balon")
                balonplace.appendChild(div) 
+               div.addEventListener('click',()=>{
+                div.style.display='none'               })
            }, time)    }
 })
 
@@ -61,14 +70,6 @@ function stop(){
 clearInterval(addtime)
 console.log('stop')
 }
-
-
-
-
-
-
-
-
 savebtn.addEventListener('click', takedata)
 function takedata(){
     if(input.value){
@@ -76,4 +77,6 @@ function takedata(){
         
     }
 }
-
+// balons.addEventListener('click', ()=>{
+//     console.log('salam')
+// })

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "Bubble-game/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1662401137131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1662401143746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,10 @@\n     padding: 0;\r\n     box-sizing: border-box;\r\n }\r\n .container{\r\n-    #FFFDD0\r\n-\r\n+background-color: #FFFDD0\r\n+;\r\n padding-top: 100px;\r\n }\r\n .balonplace{\r\n     position: absolute;\r\n"
+                },
+                {
+                    "date": 1662401151168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n .container{\r\n background-color: #FFFDD0\r\n ;\r\n padding-top: 100px;\r\n-width: ;\r\n+width: 1;\r\n }\r\n .balonplace{\r\n     position: absolute;\r\n     right: 0;\r\n"
+                },
+                {
+                    "date": 1662427325230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,5 +27,5 @@\n     height: 50px;\r\n     background-color: rgb(13, 89, 80);\r\n     border-radius: 50%;\r\n }\r\n-.save\n\\ No newline at end of file\n+.save,\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1662401137131,
+            "name": "Commit-0",
+            "content": "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    box-sizing: border-box;\r\n}\r\n.container{\r\n    #FFFDD0\r\n\r\npadding-top: 100px;\r\n}\r\n.balonplace{\r\n    position: absolute;\r\n    right: 0;\r\n    width:1000px;\r\nheight: 500px;\r\nbackground-color: bisque;}\r\n\r\nbutton{\r\n    background-color: darkgoldenrod;\r\n    color: aliceblue;\r\n    width: 100px;\r\n    height: 30px;\r\n}\r\n.balon{\r\n    width:50px;\r\n    height: 50px;\r\n    background-color: rgb(13, 89, 80);\r\n    border-radius: 50%;\r\n}\r\n"
+        }
+    ]
+}
